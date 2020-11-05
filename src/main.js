@@ -4,7 +4,7 @@ import axios from 'axios'
 
 Vue.prototype.$axios = axios
 Vue.config.productionTip = false
-axios.defaults.baseURL = 'https://test.idethink.com/'
+axios.defaults.baseURL = '/api'
 
 new Vue({
   render: h => h(App),

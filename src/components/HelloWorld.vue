@@ -36,7 +36,7 @@ export default {
     }
   },
   mounted() {
-    this.$axios.get('api/test/get/datas')
+    this.$axios.get('/test/get/datas')
     .then((response)=>{
       this.list = response.data
     })
